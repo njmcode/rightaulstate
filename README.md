@@ -6,9 +6,9 @@ A VERY simple Javascript finite state machine.
 Usage
 -----
 
-See [http://codepen.io/njmcode/pen/eoiDs] for an example demo.
+See http://codepen.io/njmcode/pen/eoiDs for an example demo.
 
-
+```javascript
     var stateManager = new RightAulState({
 
        initial: 'myFirstState',
@@ -62,6 +62,6 @@ See [http://codepen.io/njmcode/pen/eoiDs] for an example demo.
     stateManager.doTransition('restart'); // 'myFirstState'
 
     stateManager.doTransition('goEnd'); // 'myThirdState'
-
+```
 
 Check the source for method comments.
