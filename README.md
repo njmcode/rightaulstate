@@ -6,8 +6,6 @@ A VERY simple Javascript finite state machine.
 Usage
 -----
 
-See http://codepen.io/njmcode/pen/eoiDs for an example demo.
-
 ```javascript
     var stateManager = new RightAulState({
 
